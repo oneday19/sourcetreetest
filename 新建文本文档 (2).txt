@@ -1,0 +1,7 @@
+supervisord -c /etc/supervisord.conf
+ wget http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2/ntp-4.2.6p3.tar.gz
+    tar zxf ntp-4.2.6p3.tar.gz
+    mkdir /app/ntp
+    cd ntp-4.2.6p3
+    ./configure --prefix=/app/ntp --enable-all-clocks --enable-parse-clocks
+    make clean && make check && make && make intall
