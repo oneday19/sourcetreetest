@@ -1,5 +1,7 @@
-supervisord -c /etc/supervisord.conf
- 1111
-2222
-123
-456
+absabs
+ wget http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2/ntp-4.2.6p3.tar.gz
+    tar zxf ntp-4.2.6p3.tar.gz
+    mkdir /app/ntpgfd
+    cd ntp-4.2.6p3gfdg
+fdgd
+gdss  
